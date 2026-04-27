@@ -1,0 +1,17 @@
+src/
+test/
+scripts/
+examples/
+.github/
+node_modules/
+coverage/
+*.log
+.env
+.env.*
+biome.json
+tsup.config.ts
+tsconfig.json
+vitest.config.ts
+.gitignore
+.npmignore
+CONTRIBUTING.md

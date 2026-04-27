@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "domo": {
+      "command": "npx",
+      "args": ["-y", "@tylershep/domo-mcp"],
+      "env": {
+        "DOMO_INSTANCE": "yourcompany",
+        "DOMO_DEVELOPER_TOKEN": "your-dev-token-here"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "domo_test_connection",
+        "domo_list_datasets",
+        "domo_get_dataset",
+        "domo_list_pages",
+        "domo_list_users"
+      ]
+    }
+  }
+}

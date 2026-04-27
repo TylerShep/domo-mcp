@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "domo": {
+      "command": "npx",
+      "args": ["-y", "@tylershep/domo-mcp"],
+      "env": {
+        "DOMO_INSTANCE": "yourcompany",
+        "DOMO_DEVELOPER_TOKEN": "your-dev-token-here",
+        "DOMO_CLIENT_ID": "your-oauth-client-id",
+        "DOMO_CLIENT_SECRET": "your-oauth-client-secret",
+        "AI_PROVIDER": "anthropic",
+        "ANTHROPIC_API_KEY": "your-anthropic-key-here"
+      }
+    }
+  }
+}
