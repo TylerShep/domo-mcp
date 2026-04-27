@@ -1,0 +1,17 @@
+{
+  "experimental": {
+    "modelContextProtocolServers": [
+      {
+        "transport": {
+          "type": "stdio",
+          "command": "npx",
+          "args": ["-y", "@tylershep/domo-mcp"],
+          "env": {
+            "DOMO_INSTANCE": "yourcompany",
+            "DOMO_DEVELOPER_TOKEN": "your-dev-token-here"
+          }
+        }
+      }
+    ]
+  }
+}

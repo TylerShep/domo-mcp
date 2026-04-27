@@ -1,0 +1,26 @@
+[
+  {
+    "id": "card-100",
+    "title": "Pipeline by Stage",
+    "type": "pie",
+    "tags": ["sales", "pipeline"],
+    "pages": [{ "id": 5000, "name": "Sales Overview" }],
+    "datasources": [{ "id": "ds-1" }]
+  },
+  {
+    "id": "card-101",
+    "title": "Forecast vs Quota",
+    "type": "bar",
+    "tags": ["sales", "forecast"],
+    "pages": [{ "id": 5000, "name": "Sales Overview" }],
+    "datasources": [{ "id": "ds-2" }]
+  },
+  {
+    "id": "card-200",
+    "title": "Order Volume",
+    "type": "line",
+    "tags": ["operations"],
+    "pages": [{ "id": 6000, "name": "Operations Dashboard" }],
+    "datasources": [{ "id": "ds-3" }]
+  }
+]

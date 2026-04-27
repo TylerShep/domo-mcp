@@ -1,0 +1,14 @@
+{
+  "context_servers": {
+    "domo": {
+      "command": {
+        "path": "npx",
+        "args": ["-y", "@tylershep/domo-mcp"],
+        "env": {
+          "DOMO_INSTANCE": "yourcompany",
+          "DOMO_DEVELOPER_TOKEN": "your-dev-token-here"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ds-1",
+    "name": "PROD2D | Sales | Pipeline",
+    "description": "Daily pipeline snapshot for sales",
+    "rows": 12000,
+    "columns": 14,
+    "owner": { "id": 1001, "name": "Alex" },
+    "createdAt": "2024-08-01T10:00:00Z",
+    "updatedAt": "2026-04-25T14:00:00Z"
+  },
+  {
+    "id": "ds-2",
+    "name": "PROD2D | Sales | Forecast",
+    "description": "Forecast model output",
+    "rows": 8000,
+    "columns": 10,
+    "owner": { "id": 1002, "name": "Blake" },
+    "createdAt": "2024-09-12T10:00:00Z",
+    "updatedAt": "2026-04-27T08:30:00Z"
+  },
+  {
+    "id": "ds-3",
+    "name": "BETA1W | Operations | Daily Orders",
+    "description": "Operational orders feed",
+    "rows": 250000,
+    "columns": 22,
+    "owner": { "id": 1003, "name": "Casey" },
+    "createdAt": "2025-01-04T10:00:00Z",
+    "updatedAt": "2025-12-10T08:30:00Z"
+  }
+]

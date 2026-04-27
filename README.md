@@ -68,9 +68,17 @@ Edit `~/.cursor/mcp.json` (or use Cursor Settings -> Tools & Integrations -> MCP
 }
 ```
 
-#### Cline / Continue / Zed
+#### Cline
 
-See [`examples/`](examples/) for ready-to-paste configs.
+See [`examples/cline-config.json`](examples/cline-config.json) — adds a sensible `autoApprove` allowlist for the safest read-only tools.
+
+#### Continue
+
+See [`examples/continue-config.json`](examples/continue-config.json) for the `experimental.modelContextProtocolServers` block.
+
+#### Zed
+
+See [`examples/zed-config.json`](examples/zed-config.json) for the `context_servers` block.
 
 ### 3. Restart your MCP host
 
@@ -186,6 +194,10 @@ npm run lint
 npm test
 npm run build
 ```
+
+## Releases
+
+See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 ## License
 

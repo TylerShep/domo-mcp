@@ -1,0 +1,5 @@
+[
+  { "id": 5000, "name": "Sales Overview", "parentId": null, "cardIds": [100, 101] },
+  { "id": 6000, "name": "Operations Dashboard", "parentId": null, "cardIds": [200] },
+  { "id": 5001, "name": "Sales Pipeline Detail", "parentId": 5000, "cardIds": [102] }
+]
